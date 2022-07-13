@@ -1,0 +1,60 @@
+import 'package:flutter/material.dart';
+
+import '../widget/gradient_appbar.dart';
+
+class ArticleLauncher extends StatelessWidget {
+  const ArticleLauncher({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final article =
+        ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>;
+    return Scaffold(
+      body: ListView(
+        children: [
+          GradientAppBar(
+            barHeight: 150,
+            child: Padding(
+              padding: const EdgeInsets.all(15),
+              child: Row(
+                children: [
+                  IconButton(
+                    icon: const Icon(Icons.arrow_back_ios),
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                  ),
+                  const SizedBox(width: 15),
+                  Expanded(
+                    child: Text(
+                      article['title'],
+                      style: const TextStyle(fontSize: 30),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(15),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(15),
+              child: Image.asset(article['image'],
+                  height: 250, width: double.infinity, fit: BoxFit.cover),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(15),
+            child: Text(
+              article['desc'],
+              style: const TextStyle(
+                  color: Color.fromARGB(202, 255, 255, 255),
+                  fontSize: 15,
+                  height: 1.4),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

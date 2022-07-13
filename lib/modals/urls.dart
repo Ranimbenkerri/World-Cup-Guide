@@ -1,0 +1,4 @@
+const faqUrl = 'https://fifa.powerappsportals.com/en-US/qatar2022/';
+
+const hotelUrl =
+    'https://fr.hotels.com/co10233143/hotels-en-qatar/?dateless=true&destinationid=10233143&locale=fr_FR&pos=HCOM_FR&siteid=300000010&rffrid=sem.hcom.FR.google.003.00.02.DT.s.kwrd=c.519074852382.116986765170.12965873247..kwd-123418996.9069725..qatar%20hotel.CjwKCAjwkMeUBhBuEiwA4hpqEG-G4dvvdy8yoCd7O9rAxlHET0t3DpV3uT3pYOZJIPu4ag7v0D42GxoCM_8QAvD_BwE.aw.ds&PSRC=&semcid=HCOM-FR.UB.GOOGLE.DT-c-FR.HOTEL&SEMDTL=a112965873247.b1116986765170.g1kwd-123418996.l1.e1c.m1CjwKCAjwkMeUBhBuEiwA4hpqEG-G4dvvdy8yoCd7O9rAxlHET0t3DpV3uT3pYOZJIPu4ag7v0D42GxoCM_8QAvD_BwE.r11adb7f12ed2f7ac9251f68ffd5ec507579eb5a203eba1220f58b1fe602b2eb45.c1iLIZPFFCV5i3viQ5E5_kYA.j19069725.k1.d1519074852382.h1e.i1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&gclid=CjwKCAjwkMeUBhBuEiwA4hpqEG-G4dvvdy8yoCd7O9rAxlHET0t3DpV3uT3pYOZJIPu4ag7v0D42GxoCM_8QAvD_BwE';
