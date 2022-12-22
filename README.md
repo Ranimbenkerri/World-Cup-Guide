@@ -1,6 +1,15 @@
-# code_rally
+# code_rally Hackthon
 
-A new Flutter project.
+World-Cup-Guide App made using flutter that guide peoples through their journey in world cup events such as buying tickets & reserving places in hotels and discovering Touristique places in Qatar... 
+
+
+
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/102553705/209116202-27911873-6685-4a6b-a796-1b9c5b3f5ea1.png">
+
+
+
+
+
 
 ## Getting Started
 
