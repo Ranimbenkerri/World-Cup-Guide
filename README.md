@@ -1,6 +1,6 @@
 # code_rally Hackthon
 
-World-Cup-Guide App made using flutter that guide peoples through their journey in world cup events such as buying tickets & reserving places in hotels and discovering Touristique places in Qatar... 
+World-Cup-Guide App made using flutter that guide peoples through their journey in world cup events such as buying tickets & reserving places in hotels and discovering Touristique places in Qatar..
 
 
 
